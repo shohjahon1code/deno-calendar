@@ -1,0 +1,13 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.unstable": true,
+  "deno.config": "./deno.json",
+  "deno.importMap": "./import_map.json",
+  "[javascript][json][jsonc][typescript][typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "denoland.vscode-deno",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  }
+}
